@@ -33,6 +33,8 @@ function Slider({min, max, value, title, onChange}) { //{} - destructuring
    </div>
 }
 
+//diff
+
 Slider.propTypes = {
   min: PT.number.isRequired,
   max: PT.number.isRequired,
